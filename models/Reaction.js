@@ -1,6 +1,6 @@
 const { Schema, Types } = require('mongoose');
 const moment = require('moment');
-require('mongodb-moment')(moment);
+
 
 const reactionsSchema = new Schema(
     {
@@ -19,8 +19,8 @@ const reactionsSchema = new Schema(
         },
         createdAt: {
             type: Date,
-            default: timestamp,
-            get: 
+            default: Date.now(),
+            // get: 
         }
     },
     {
