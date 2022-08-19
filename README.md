@@ -1,4 +1,58 @@
 # 18 NoSQL: Social Network API
+Set up the routes for the noter website
+
+## Description
+- I connected the routes so that the db.json could be displayed datae called by routers
+
+### What was your motivation?
+New material covered back-end it was new material for me and I was excited about it
+especially since its a tool used commonly
+
+### Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
+Back-end is not an easy concept, So all the practice I can get will help me better my knowlegde of it
+
+### What problem does it solve?
+Fixing the routes for the note page and its displaying the called data
+
+### What did you learn?
+The smallest error can cause the web to not display or function.
+You must be patient with back-end
+
+## Table of Contents 
+
+-[Installation](#installation)
+-[Usage/Instructions](#Usage/Instructions)
+-[Contributing](#Contributing)
+-[Test](#Test)
+-[Questions](#Questions)
+
+## Installation
+on the terminal enter 'npm run dev' or you can type in nodemon index.js
+
+## Usage/Instructions
+You can then check routes in insomnia 
+
+## Example
+![Video demonstration in insomnia Part 1 & 2]()
+###Part 1
+https://drive.google.com/file/d/1lHp13_PYhX_dL89jSfIQ_wJ31CR-b3af/view
+
+###Part 2
+https://drive.google.com/file/d/1o0o1-twkLbISe-xLbNKpxOXpn9mNEIDW/view
+
+
+
+## Contributing
+- Paulo Sergio Condori Pinedo
+
+
+#Questions 
+If you have any questions about the repo, open an issue or contact me directly at paulocondori1@gmail.com. You can find more of my work at pcondori1996)
+
+🏆 🏆 🏆 🏆 🏆 🏆 🏆 🏆 🏆 🏆 🏆 🏆 🏆 🏆 🏆 🏆 🏆 🏆 🏆 🏆`
+};
+
+## INSTRUCTIONS FOR ASSIGNMENT
 
 ## Your Task
 
