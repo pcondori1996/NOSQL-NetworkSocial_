@@ -40,6 +40,9 @@ https://drive.google.com/file/d/1lHp13_PYhX_dL89jSfIQ_wJ31CR-b3af/view
 ###Part 2
 https://drive.google.com/file/d/1o0o1-twkLbISe-xLbNKpxOXpn9mNEIDW/view
 
+## Part 3
+https://drive.google.com/file/d/1zOi9AiRA0eSn7gNnF8Y80HO5-CHF4D0A/view
+
 
 
 ## Contributing
