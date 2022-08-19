@@ -28,7 +28,7 @@ module.exports = {
     deleteThought(req, res) {
         Thought.findOneAndDelete({ _id: req.params.thoughtId })
         .then((thought) =>
-           User.findOneAndUpdate(
+           ThoughtfindOneAndUpdate(
             {_id: body.userId},
             { $pull: { thoughts: thought._id}},
             { runValidators: true, new: true}           )
