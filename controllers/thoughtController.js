@@ -28,8 +28,8 @@ module.exports = {
     deleteThought(req, res) {
         Thought.findOneAndDelete({ _id: req.params.thoughtId })
         .then((thought) =>
-           ThoughtfindOneAndUpdate(
-            {_id: body.userId},
+           Thought.findOneAndUpdate(
+            {_id: req.params.thoughtId},
             { $pull: { thoughts: thought._id}},
             { runValidators: true, new: true}           )
         )
@@ -67,13 +67,13 @@ module.exports = {
                 .json({ message: 'No user with that ID'})
                 : res.json(thought)
         )
-        .catch((err) => res.status(500).json(err))
+        // .catch((err) => res.status(500).json(err))
     },
 
     deleteReaction(req, res) {
         Thought.findOneAndUpdate(
             { _id: req.params.thoughtId },
-            { $pull: {reactions: req.body} },
+            { $pull: {reactions: req.body } },
             { runValidators: true, new: true }
         ).then((thought) =>
         !thought
@@ -82,7 +82,7 @@ module.exports = {
                 .json({ message: 'No user with that ID'})
                 : res.json(thought)
         )
-        .catch((err) => res.status(500).json(err))
+        // .catch((err) => res.status(500).json(err))
         
     },
 };
